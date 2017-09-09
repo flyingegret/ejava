@@ -46,7 +46,4 @@ chapter one
      
      一个编译器可以自动定制作用于特定类型上的类
      
-chapter two
-     
-     test push when built-in
 
