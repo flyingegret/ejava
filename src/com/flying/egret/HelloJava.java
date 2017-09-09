@@ -10,5 +10,8 @@ public class HelloJava {
         System.out.println("hi, this is egret!");
         System.out.println("it's :"+new Date());
 
+
+        
+
     }
 }
