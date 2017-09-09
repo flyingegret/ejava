@@ -11,7 +11,7 @@ public class HelloJava {
         System.out.println("it's :"+new Date());
 
 
-        
+
 
     }
 }
