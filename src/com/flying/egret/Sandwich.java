@@ -4,7 +4,7 @@ package com.flying.egret;
  * 构造器的调用顺序
  *
  * @author egret
- * @create 2017-09-12 23:24
+ * @date 2017-09-12 23:24
  **/
 
 class Meal{
@@ -33,7 +33,7 @@ class PortableLunch extends Lunch{
 
 /**
  *
- Meal()
+ Meal()  此为最顶层基类
  Lunch()
  PortableLunch()  此为最底层导出类
  Bread()
@@ -45,7 +45,7 @@ public class Sandwich extends PortableLunch {
     private Bread b = new Bread();
     private Chese c = new Chese();
     private Lettuce l = new Lettuce();
-    public Sandwich(){System.out.println("Sandwich()");}
+    private Sandwich(){System.out.println("Sandwich()");}
     public static void main(String[] args){
         new Sandwich();
     }
